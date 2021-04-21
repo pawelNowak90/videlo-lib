@@ -1,8 +1,21 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+
+import DefaultCard from './DefaultCard';
+
+import {Row} from 'reactstrap';
+
+let howManyColumns = "4";
 
 const UserLib = () => {
     return (
-        <h5>UserLib - komponent</h5>
+        <Fragment>
+            <h5>UserLib - komponent</h5>
+            <Row>
+                <DefaultCard howManyColumns={howManyColumns}/>
+                <DefaultCard />
+                <DefaultCard />
+            </Row>
+        </Fragment>
      );
 }
 

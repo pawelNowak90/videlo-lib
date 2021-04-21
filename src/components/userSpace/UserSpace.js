@@ -3,7 +3,9 @@ import React, {Fragment} from 'react';
 const UserSpace = (props) => {
     return (
         <Fragment>
-            {props.children}
+            <main class="user-space">
+                {props.children}
+            </main>
         </Fragment>
      );
 }
