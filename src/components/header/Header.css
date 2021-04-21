@@ -1,0 +1,12 @@
+header{
+padding:0 10%;
+    width:100%;
+    min-height:25vh;
+    background-color: rgba(200,200,200,1);
+    overflow: hidden;
+}
+
+header h1{
+    font-size:2em;
+    color:rgb(184,32,32);
+}
